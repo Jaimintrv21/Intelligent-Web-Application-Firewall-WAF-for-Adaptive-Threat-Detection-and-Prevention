@@ -1,0 +1,30 @@
+# AI-Powered Web Application Firewall (WAF)
+
+## 🔧 Installation
+
+### **1️⃣ Run the Install Script**
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+### **2️⃣ Activate Virtual Environment**
+```bash
+source waf_env/bin/activate
+```
+
+### **3️⃣ Run the WAF API**
+```bash
+python api/app.py
+```
+
+## 📡 Deployment Options
+- **Docker:**
+  ```bash
+  docker-compose up -d
+  ```
+- **Kubernetes:**
+  ```bash
+  kubectl apply -f deployment/k8s.yaml
+  ```
+
